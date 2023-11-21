@@ -1,0 +1,135 @@
+/* src/styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  background-image: url('assets/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #207123;
+}
+
+h2 {
+  color: #207123;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(45, 6, 214, 0.2);
+}
+
+label {
+  display: block;
+  margin: 15px 0 8px;
+  color: #555;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='file'],
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input[type='text']:focus,
+input[type='file']:focus,
+select:focus {
+  border-color: #4CAF50;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+li {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+li img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ddd;
+}
+
+li div {
+  padding: 20px;
+}
+
+li p {
+  margin: 10px 0;
+}
+
+li button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
+
+li button.status {
+  background-color: #3498db;
+}
+
+li button.status:hover {
+  background-color: #2980b9;
+}
